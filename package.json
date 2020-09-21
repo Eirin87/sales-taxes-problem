@@ -1,0 +1,13 @@
+{
+  "name": "claranet",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "nyc --reporter=text mocha"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0"
+  }
+}
